@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #005f73;
+}
+
+body {
+    background-color: #001219;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    text-shadow: 0 0 15px #005f73;
+}
+
+img {
+    height: 60px;
+    width: 60px;
+}
+
+.link {
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s all linear;
+}
+
+.link:hover {
+    transition: 0.2s all linear;
+    text-shadow: 0 0 10px #005f73;
+    scale: 1.1;
+}
+
+.languages,
+.content-2,
+.content-3,
+.content-4,
+.content-5,
+.content-6 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    transition: 0.2s all linear;
+}
+
+.important-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 10px;
+    padding: 10px;
+}
+
+.social-link a,
+.profile-link a {
+    margin: 10px;
+    padding: 10px;
+}
+
+.footerpic {
+    height: 50px;
+    width: 50px;
+    transition: 0.2s all linear;
+}
+
+.footerpic:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px #005f73);
+    scale: 1.1;
+}
+
+.python:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px #005f73);
+    scale: 1.1;
+}
+
+.java:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px #005f73);
+    scale: 1.1;
+}
+
+.javascript:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px yellow);
+    scale: 1.1;
+}
+
+.C:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px skyblue);
+    scale: 1.1;
+}
+
+.Cpp:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px #005f73);
+    scale: 1.1;
+}
+
+.Html:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px orange);
+    scale: 1.1;
+}
+
+.Css:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px #005f73);
+    scale: 1.1;
+}
+
+.Nodejs:hover,
+.mongodb:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px green);
+    scale: 1.1;
+}
+
+.csharp:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px violet);
+    scale: 1.1;
+}
+
+.ruby:hover,
+.scala:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px red);
+    scale: 1.1;
+}
+
+.swift:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px tomato);
+    scale: 1.1;
+}
+
+.kotlin:hover,
+.elixir:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px purple);
+    scale: 1.1;
+}
+
+.php:hover,
+.asm:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px navy);
+    scale: 1.1;
+}
+
+.typescript:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px skyBlue);
+    scale: 1.1;
+}
+
+.golang:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px skyBlue);
+    scale: 1.1;
+}
+
+.dart:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px skyBlue);
+    scale: 1.1;
+}
+
+.rust:hover,
+.bootstrap:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px whitesmoke);
+    scale: 1.1;
+}
+
+.react:hover,
+.r:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px skyblue);
+    scale: 1.1;
+}
+
+.flutter:hover,
+.perl:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px skyblue);
+    scale: 1.1;
+}
+
+.express:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px whitesmoke);
+    scale: 1.1;
+}
+
+.nextjs:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px whitesmoke);
+    scale: 1.1;
+}
+
+.mysql:hover,
+.lua:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px blue);
+    scale: 1.1;
+}
+
+.angular:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px red);
+    scale: 1.1;
+}
+
+.vue:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px green);
+    scale: 1.1;
+}
+
+.django:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px yellowgreen);
+    scale: 1.1;
+}
+
+.haskell:hover,
+.julia:hover {
+    transition: 0.2s all linear;
+    filter: drop-shadow(0 0 10px gray);
+    scale: 1.1;
+}
